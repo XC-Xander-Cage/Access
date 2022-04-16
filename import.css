@@ -522,6 +522,18 @@ body{
     padding: 1rem;
     gap: 1rem;
 }
+.body .container .topsection .topsection-container .wallet .wallet-container .middle .toop{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.body .container .topsection .topsection-container .wallet .wallet-container .middle .toop img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+
+}
 .body .container .topsection .topsection-container .wallet .wallet-container .middle h4{
     font-size: 18px;
 }

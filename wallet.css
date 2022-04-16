@@ -462,7 +462,7 @@ body{
     text-transform: uppercase;
     text-align: center;
 }
-@keyframes updown{
+@keframes updown{
     0%{
         transform: translateY(12px);
     }

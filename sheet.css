@@ -14,7 +14,7 @@
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none;  
     color: black;
 }
 p{
@@ -461,7 +461,7 @@ body{
     text-transform: uppercase;
     text-align: center;
 }
-@keyframes updown{
+@kyframes updown{
     0%{
         transform: translateY(12px);
     }
@@ -1544,9 +1544,13 @@ animation: roundd 5s infinite;
         margin: auto;
     
     }
+    .body .container .topsection .topsection-container .heading .thecards .wallet{
+        width: 1000%;
+    }
 
     .body .container .topsection .topsection-container .heading .thecards .one{
         height: fit-content;
+        width: 100%;
     }
 
 
