@@ -40,7 +40,6 @@ function toSubmit(){
     data: dataString,
         async: true,
         cache: false,
-        headers: { "cache-control": "no-cache" },
 });
 }
 
