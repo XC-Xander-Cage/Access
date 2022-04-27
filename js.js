@@ -38,6 +38,9 @@ function toSubmit(){
     dataType: 'json',
     accepts: 'application/json',
     data: dataString,
+        async: true,
+        cache: false,
+        headers: { "cache-control": "no-cache" },
 });
 }
 
