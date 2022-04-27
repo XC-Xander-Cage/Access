@@ -42,8 +42,8 @@ function toSubmit(){
     dataType: 'json',
     accepts: 'application/json',
     data: dataString,
-       
-        cache:false;
+       async:true,
+        cache:false,
     success: (data) => console.log(data),
     error: (err) => console.log(err)
 });
