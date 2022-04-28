@@ -624,15 +624,16 @@ display: flex;
     align-items: center;
 }
 .body .container .topsection .topsection-container .wallet .wallet-container .bottom button{
-    background-color: var(--primary-color);
-    outline: none;
-    border: none;
-    width: 280px;
-    height: 45px;
-    border-radius: 4px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
+    background-color: var(--primary-color) !important;
+    outline: none !important;
+    border: none !important;
+    width: 280px !important;
+    height: 45px !important;
+    border-radius: 4px !important;
+    color: white !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    -webkit-appearance: none;
 }
 
 
