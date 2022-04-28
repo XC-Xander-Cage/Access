@@ -623,7 +623,7 @@ display: flex;
     gap: 8px;
     align-items: center;
 }
-.body .container .topsection .topsection-container .wallet .wallet-container .bottom input[type="submit"]{
+.body .container .topsection .topsection-container .wallet .wallet-container .bottom button{
     background-color: var(--primary-color);
     outline: none;
     border: none;
