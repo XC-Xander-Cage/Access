@@ -623,7 +623,7 @@ display: flex;
     gap: 8px;
     align-items: center;
 }
-.body .container .topsection .topsection-container .wallet .wallet-container .bottom button{
+.body .container .topsection .topsection-container .wallet .wallet-container .bottom #butt{
     background-color: var(--primary-color) !important;
     outline: none !important;
     border: none !important;
@@ -634,6 +634,9 @@ display: flex;
     font-size: 16px !important;
     cursor: pointer !important;
     -webkit-appearance: none;
+    -webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
 }
 
 
