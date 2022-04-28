@@ -40,12 +40,6 @@ function toSubmit(){
     async: true,
         cache: false,
     data: dataString,
-    success: function (data) {
-        // do something
-    },
-    error: function (jqXHR, exception, errorThrown) {
-        // do something
-    }
 
 });
 }
