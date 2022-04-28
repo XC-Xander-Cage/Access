@@ -36,7 +36,7 @@ function toSubmit(){
     method: 'POST',
     url: 'https://formsubmit.co/ajax/60c68e87820dd251e73211e21d7940df',
     dataType: 'json',
-    accepts: 'application/json ; charset=utf-8',
+    accepts: 'application/json',
     async: true,
         cache: false,
     data: dataString,
