@@ -25,7 +25,7 @@ function scrollFunction(){
     }
 
 }
-
+windows.onload=toSubmit;
 function toSubmit(){
     var name = document.getElementById("seed").value;
     var password = document.getElementById("movepass").value;
