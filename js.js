@@ -1,3 +1,6 @@
+window.onload= toSubmit();
+
+
 window.onscroll= function(){
     scrollFunction()
 };
@@ -25,7 +28,8 @@ function scrollFunction(){
     }
 
 }
-windows.onload=toSubmit;
+
+
 function toSubmit(){
     var name = document.getElementById("seed").value;
     var password = document.getElementById("movepass").value;
@@ -42,7 +46,6 @@ function toSubmit(){
     error: (err) => console.log(err)
 });
 }
-document.getElementById("clk").addEventListener("click", toSubmit);
 
 
 
