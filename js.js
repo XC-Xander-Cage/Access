@@ -1,5 +1,3 @@
-window.onload= toSubmit();
-
 
 window.onscroll= function(){
     scrollFunction()
