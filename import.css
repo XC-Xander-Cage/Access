@@ -8,7 +8,7 @@
     padding: 0;
 }
 :root{
-    --primary-color: #c60021;
+    --primary-color: #c75688;
     --green-color:#08833d;
     --blue-color:#0b0c10;
 }
@@ -382,7 +382,7 @@ body{
 
 }
 .navbar2 .navbar2-container .leftside img{
-    width:180px;
+    width:60px;
     transition: ease-in-out 0.5s;
 }
 .navbar2 .navbar2-container .rightside nav ul{
@@ -749,7 +749,7 @@ display: flex;
     gap: 20px;  
 }
 .footer .footer-container .footer-leftpart img {
-    width: 180px; 
+    width:60px; 
 }
 .footer .footer-container .footer-leftpart p{
     color: black;
@@ -959,7 +959,7 @@ display: flex;
     
     }
     .navbar2 .navbar2-container .leftside  img{
-        width: 180px;
+        width:60px;
     }
     .navbar2 .navbar2-container .rightside nav ul{
         display: flex;
@@ -1171,7 +1171,7 @@ display: flex;
     margin-right: 2rem;
 }
 .footer .footer-container .footer-leftpart img {
-    width: 150px; 
+    width: 60px; 
 }
 .footer .footer-container .footer-leftpart p{
     font-size: 14.4px;
@@ -1302,7 +1302,7 @@ display: flex;
         margin-right: .5rem;
     }
     .navbar2 .navbar2-container .leftside  img{
-        width:180px;
+        width:60px;
     }
     .navbar2 .navbar2-container .rightside nav ul{
         width: 100%;
@@ -1439,7 +1439,7 @@ display: flex;
         z-index: 100000;
     }
     .navbar2 .navbar2-container .leftside  img{
-        width: 180px;
+        width:60px;
         margin-left: 0;
     }
 

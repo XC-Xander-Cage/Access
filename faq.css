@@ -8,7 +8,7 @@
     padding: 0;
 }
 :root{
-    --primary-color: #c60021;
+    --primary-color: #c75688;
     --green-color:#08833d;
     --blue-color:#0b0c10;
 }
@@ -386,7 +386,7 @@ body{
 
 }
 .navbar2 .navbar2-container .leftside img{
-    width:180px;
+    width:60px;
     transition: ease-in-out 0.4s;
 }
 .navbar2 .navbar2-container .rightside nav ul{
@@ -573,7 +573,7 @@ body{
         height: 75px;
     }
     .navbar2 .navbar2-container .leftside img{
-        width:180px;
+        width:60px;
     }
 
  }
