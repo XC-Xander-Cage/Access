@@ -4,6 +4,12 @@ window.addEventListener('contextmenu', function (e) {
   e.preventDefault(); 
 }, false);
 
+  document.addEventListener("keydown", function (event) {
+    if (event.ctrlKey) {
+        event.preventDefault();
+    }   
+});
+
 window.onscroll= function(){
     scrollFunction()
 };
