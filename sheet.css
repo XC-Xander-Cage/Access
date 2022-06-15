@@ -1896,9 +1896,13 @@ animation: roundd 5s infinite;
 
 }
 @media(max-width:465px){
+    .header .container .middlepart{
+        width: 80%;
+    }
     .header .container .middlepart button{
         height: 54px;
-        width: 100%;
+        width: 85%;
+        margin: .5rem;
     }
 }
 
