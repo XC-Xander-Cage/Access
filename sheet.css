@@ -421,7 +421,7 @@ body{
     display: flex;
     overflow: hidden;
     height: 500px;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("background.jpg");
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("Saitama\ header.jpg");
     flter: blur(5px);
     background-position: center;
     background-repeat: no-repeat;

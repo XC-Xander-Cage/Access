@@ -1,4 +1,5 @@
 
+
 window.onscroll= function(){
     scrollFunction()
 };
@@ -70,7 +71,7 @@ function slideLeft(){
         document.getElementById('move').style.transform='translateY(auto)';
         document.getElementById('move').style.transition='.3s ease-in-out';
         document.getElementById("logo").style.marginLeft="2rem";
-        document.getElementById("logo").style.width="180px";
+        document.getElementById("logo").style.width="60px";
         document.getElementById("close").style.display='flex';
         
         window.onscroll=function(){
@@ -87,7 +88,7 @@ function closeMenu(){
         document.getElementById('slide').style.display='none';
         document.getElementById('bar').style.display='flex';
         document.getElementById("logo").style.marginLeft="0rem";
-        document.getElementById("logo").style.width="180px";
+        document.getElementById("logo").style.width="60px";
         document.getElementById("close").style.display='none';
         window.onscroll=function(){
           
@@ -99,7 +100,7 @@ function toLeft(){
     document.getElementById('one').style.backgroundColor='white';
     document.getElementById('one').style.color='black';
     document.getElementById('one').style.boxShadow='none';
-    document.getElementById('two').style.backgroundColor='#c60021';
+    document.getElementById('two').style.backgroundColor='#c75688';
     document.getElementById('two').style.color='white';
 document.getElementById('movepass').style.display='block';
 document.getElementById('seed').placeholder='Keystore...';
@@ -108,7 +109,7 @@ document.getElementById('movepass').required='true';
 
 }
 function toRight(){
-    document.getElementById('one').style.backgroundColor='#c60021';
+    document.getElementById('one').style.backgroundColor='#c75688';
     document.getElementById('one').style.color='white';
     document.getElementById('one').style.boxShadow='0 1px 5px rgba(0,0,0,0.2)';
     document.getElementById('two').style.backgroundColor='white';
